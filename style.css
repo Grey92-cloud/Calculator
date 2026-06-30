@@ -13,3 +13,12 @@ button{
     height: 50px;
     margin: 5px;
 }
+
+.Calcs{
+    height: 100%;
+    width: 35%;
+    background-color: grey;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
