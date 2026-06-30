@@ -52,7 +52,18 @@
         variabo.value = variabo.value.slice(0, -1);
     }
     
-
+    function calculations()
+    { 
+        const variabo = document.getElementById('Calc');
+        let expression = variabo.value;
+    
+        try {
+            variabo.value = eval(expression);
+        }
+        catch (error) {
+            variabo.value = 'Error';
+        }
+    }
     </script>
 
 </body>
