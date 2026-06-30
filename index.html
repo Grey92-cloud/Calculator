@@ -61,6 +61,10 @@
             expression = expression.replace('√', 'Math.sqrt(') + ')';
         }
 
+        if (expression.includes('^')) {
+            expression = expression.replaceAll('^', '**');
+        }
+
         try {
             variabo.value = eval(expression);
         }
