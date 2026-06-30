@@ -57,6 +57,10 @@
         const variabo = document.getElementById('Calc');
         let expression = variabo.value;
     
+        if (expression.includes('√')) {
+            expression = expression.replace('√', 'Math.sqrt(') + ')';
+        }
+
         try {
             variabo.value = eval(expression);
         }
