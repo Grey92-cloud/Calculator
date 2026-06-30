@@ -22,3 +22,12 @@ button{
     border-radius: 5px;
     padding: 20px;
 }
+
+body{
+    background-color: #f2f2f2;
+    flex-direction: column;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
